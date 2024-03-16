@@ -6,3 +6,5 @@ outputs the uppercase letter
  ,
 <[->-<]
 > .
+
++++++ +++++ .
