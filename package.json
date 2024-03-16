@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "node-brainfuck-compiler": "^1.0.0"
+  },
+  "scripts": {
+    "bf-compile": "brainfuck-compiler -o ./out.js -i $npm_config_file.bf",
+    "bf-run": "node out.js",
+    "bf": "brainfuck-compiler -o ./out.js -i $npm_config_file.bf && node out.js"
   }
 }
